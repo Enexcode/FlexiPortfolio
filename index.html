@@ -1,257 +1,608 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta Tags for SEO -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FlexiPortfolio - Home page</title>
-    <!-- ========== All Css Link Here ===== -->
-     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-     <link rel="stylesheet" href="index_assets/css/style.css">
+    <meta name="description" content="JholokDev - A modern and clean HTML template for portfolios, showcasing your skills and projects.">
+    <meta name="author" content="Noushed Ahmed Jholok">
+    <meta name="keywords" content="Portfolio, Web Developer, HTML Template, Modern Design, Personal Website">
+    <!-- Favicon for the website -->
+    <link rel="icon" href="index_assets/images/favicon.ico" type="image/x-icon">
+    <!-- Title of the website -->
+    <title>FlexiPortfolio - Frameworks</title>
+    <!-- Linking the CSS file for styling -->
+     <link rel="stylesheet" href="index_assets/css/font-awesome.min.css">
+     <link rel="stylesheet" href="index_assets/css/animate.min.css">
+    <link rel="stylesheet" href="index_assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index_assets/css/style.css">
 </head>
-<body class="bg-dark">
-<!-- ========== Header Area Start  -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark">
-  <div class="container">
-    <a class="navbar-brand" href="#">
-      <div class="d-flex">
-        <img style="height: 50px;" src="index_assets/img/logo.png" alt="logo">
-        <h3 class="text-white pt-2 ps-1 fw-bold">FlexiPortfolio</h3>
-      </div>
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-white">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#how-to-use">How to Use</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#explore-features">Explore Features</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Demo
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-      </ul>
+<body>
+    <!-- Header Section -->
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <!-- ----- logo here ----- -->
+             <img id="logo" src="index_assets/images/logo/logo.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#hero_section_area">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about_section_area">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio_section_area">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#service_section_area">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog_section_area">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact_section_area">Contact</a>
+                </li>
+                <li>
+                    <button id="theme-toggle" class="theme-btn">
+                        <img id="theme-icon" src="index_assets/images/icons/light.png" alt="Toggle Theme">
+                    </button>
+                </li>
+            </ul>
+        </div>
     </div>
-  </div>
 </nav>
-<!-- ========== Header Area End  -->
-   <!-- main -->
-   <div>
-    <div class="container py-4">
-      <div class="row">
-        <div class="col-md-6 col-lg-6">
-          <div class="networking">
-            <h2 class="display-5 heading">Your Portfolio, Your Way – Build and Customize with Ease</h2>
-            <p class="text-info">Create stunning, customizable portfolios effortlessly with FlexiPortfolio. Design, showcase, and impress – all in one place!</p>
-            <button type="button" id="change-lang" class="btn btn-info">Start Building Now</button>
-          </div>
+<!-- ========== Hero Section Start ============  -->
+<section id="hero_section_area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="hero_text wow animate__animated animate__bounceInLeft" data-wow-delay="1s">
+                    <h5 class="mb-3">Unleash Your Creativity with FlexiPortfolio</h5>
+                    <h1 class="mb-3">Build Your Portfolio, Your Way, with Unlimited Possibilities</h1>
+                    <p>Create stunning, customizable portfolio websites effortlessly with our pre-designed sections. Mix, match, and make your mark online today!</p>
+                    <div id="button-container">
+                        <a href="#" class="effect_button"><em><i></i><i></i><i></i><i></i><i></i><i></i></em><span>🚀 Start Building Now</span></a>
+                        <a href="#" class="effect_button_white ms-4"><em><i></i><i></i><i></i><i></i><i></i><i></i></em><span>💡 Explore Features</span></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-lg-5 h-100">
+                <div class="hero_image position-relative wow animate__animated animate__bounceInRight" data-wow-delay="1s">
+                    <img src="index_assets/images/hero/hero.png" alt="hero">
+                    <img class="hero_bg" src="index_assets/images/hero/hero_bg.png" alt="hero">
+                </div>
+            </div>
         </div>
-        <div class="col-md-6 col-lg-6">
-          <div class="img w-100" >
-            <img src="https://usercontent.one/wp/www.norderbergs.com/wp-content/uploads/2020/09/professional-web-design-social-ink-professional-web-design-png-1000_813.png" alt="communication" class="w-100">
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
-<!-- ========== How To Use  -->
-<section class="py-5 bg-light" id="how-to-use">
-  <div class="container">
-    <h2 class="text-center mb-4">How to Use FlexiPortfolio</h2>
-    <div class="row g-4">
-      <!-- Step 1 -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card h-100 shadow">
-          <div class="card-body">
-            <h5 class="card-title">Step 1: Download the Framework</h5>
-            <p class="card-text">Get started by downloading FlexiPortfolio from our official repository or website.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Step 2 -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card h-100 shadow">
-          <div class="card-body">
-            <h5 class="card-title">Step 2: Set Up Your Environment</h5>
-            <p class="card-text">Install the required tools and follow the setup instructions provided in the documentation.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Step 3 -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card h-100 shadow">
-          <div class="card-body">
-            <h5 class="card-title">Step 3: Customize Your Portfolio</h5>
-            <p class="card-text">Use our pre-built templates and components to design your portfolio the way you want.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Step 4 -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card h-100 shadow">
-          <div class="card-body">
-            <h5 class="card-title">Step 4: Add Your Content</h5>
-            <p class="card-text">Showcase your skills, projects, and achievements using the pre-defined sections.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Step 5 -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card h-100 shadow">
-          <div class="card-body">
-            <h5 class="card-title">Step 5: Publish and Share</h5>
-            <p class="card-text">Deploy your portfolio and share it with the world!</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="text-center mt-5">
-      <a href="#" class="btn btn-primary btn-lg">Get Started Now ( Docs )</a>
-    </div>
-  </div>
 </section>
-
-<!-- ========== How To Use  -->
-<section class="py-5" id="explore-features">
-  <div class="container">
-    <h2 class="text-center text-white mb-4">Explore Features</h2>
-    <p class="text-center text-muted mb-5">Discover the powerful features that make FlexiPortfolio the perfect tool for building stunning portfolios.</p>
-    <div class="row g-4">
-      <!-- Feature 1 -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card h-100 shadow border-0">
-          <div class="card-body text-center">
-            <div class="icon mb-3">
-              <i class="bi bi-layout-text-window-reverse fs-1 text-primary"></i>
+<!-- ========== Hero Section End ============  -->
+ <!-- ========== About Section Start ============  -->
+<section id="about_section_area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section_title">
+                    <div class="two">
+                        <h1 class="wow animate__animated animate__bounceInRight">About
+                          <span>Why Choose FlexiPortfolio?</span>
+                        </h1>
+                    </div>
+                </div>
             </div>
-            <h5 class="card-title">Pre-built Templates</h5>
-            <p class="card-text">Get access to ready-to-use templates designed for portfolio websites.</p>
-          </div>
         </div>
-      </div>
-      <!-- Feature 2 -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card h-100 shadow border-0">
-          <div class="card-body text-center">
-            <div class="icon mb-3">
-              <i class="bi bi-brush fs-1 text-primary"></i>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="about_text wow animate__animated animate__bounceInLeft">
+                    <h4>Your One-Stop Solution for Portfolio Websites</h4>
+                    <p>At FlexiPortfolio, we believe your portfolio should reflect your unique style. That’s why we offer:</p>
+                    <!-- <h4 class="mt-3">With over 4+ of experience, <br> I specialize in:</h4> -->
+                    <ul>
+                        <li><span class="fw-bold">Customizable Sections:</span> Pick from 20+ designs for each section type.</li>
+                        <li><span class="fw-bold">User-Friendly Interface: </span>Just copy, paste, and create your website.</li>
+                        <li><span class="fw-bold">Modern & Responsive Designs:</span> Perfect for all devices.</li>
+                    </ul>
+                    <p>Whether you’re a designer, developer, or freelancer, FlexiPortfolio empowers you to showcase your work effortlessly.</p>
+                    <div id="button-container">
+                      <a href="#" class="effect_button"><em><i></i><i></i><i></i><i></i><i></i><i></i></em><span>🚀 Start Building Now</span></a>
+                  </div>
+                </div>
             </div>
-            <h5 class="card-title">Easy Customization</h5>
-            <p class="card-text">Personalize every detail, from colors to layouts, to make it truly yours.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Feature 3 -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card h-100 shadow border-0">
-          <div class="card-body text-center">
-            <div class="icon mb-3">
-              <i class="bi bi-lightning-charge fs-1 text-primary"></i>
+            <div class="col-lg-6">
+                <div class="about_slider wow animate__animated animate__bounceInRight">
+                    <div class="general-container mb-3">
+                        <input class="radio" type="radio" name="card" id="cardUno" checked />
+                        <label class="content" for="cardUno" style="background-image: url(assets/images/about/about_one.png);">
+                        </label>
+                        <input class="radio" type="radio" name="card" id="cardDos" />
+                            <label class="content" for="cardDos" style="background-image: url(assets/images/about/about_two.png);">
+                        </label>
+                        <input class="radio" type="radio" name="card" id="cardTres" />
+                            <label class="content" for="cardTres" style="background-image: url(assets/images/about/about_three.png);">
+                        </label>
+                        <input class="radio" type="radio" name="card" id="cardCuatro" />
+                        <label class="content" for="cardCuatro" style="background-image: url(assets/images/about/about_four.png);">
+                        </label>
+                    </div>
+                </div>
+                <div class="about_my_interest ">
+                    <div id="quote-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="quote-sign" width=30 viewBox="0 0 448 512"><path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"/></svg><span id="text">When I’m not coding, I love exploring nature, traveling to new places, and learning about different cultures. These experiences inspire me to create designs that tell a story.</span>
+                        <div class="d-flex justify-content-end">
+                            <div id="author">- Noushed A. Jholok</div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <h5 class="card-title">Lightning Fast</h5>
-            <p class="card-text">Optimized for performance, ensuring a smooth and fast experience.</p>
-          </div>
         </div>
-      </div>
-      <!-- Feature 4 -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card h-100 shadow border-0">
-          <div class="card-body text-center">
-            <div class="icon mb-3">
-              <i class="bi bi-code-slash fs-1 text-primary"></i>
-            </div>
-            <h5 class="card-title">Developer-Friendly</h5>
-            <p class="card-text">Built with clean, modular code that's easy to work with and extend.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Feature 5 -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card h-100 shadow border-0">
-          <div class="card-body text-center">
-            <div class="icon mb-3">
-              <i class="bi bi-layers fs-1 text-primary"></i>
-            </div>
-            <h5 class="card-title">Reusable Components</h5>
-            <p class="card-text">Includes a variety of reusable sections to speed up your workflow.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Feature 6 -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card h-100 shadow border-0">
-          <div class="card-body text-center">
-            <div class="icon mb-3">
-              <i class="bi bi-shield-check fs-1 text-primary"></i>
-            </div>
-            <h5 class="card-title">Secure and Reliable</h5>
-            <p class="card-text">Designed with best practices to ensure reliability and security.</p>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
 </section>
+<!-- ========== About Section End ============  -->
 
-<section class="py-5 bg-white" id="header-designs">
-  <div class="container">
-    <h2 class="text-center mb-4">Header Section Designs</h2>
-    <p class="text-center text-muted mb-5">Explore a variety of header designs that perfectly fit your portfolio style.</p>
-    <div class="row g-4">
-      <!-- Header Design 1 -->
-      <div class="col-md-12 col-lg-12">
-        <div class="card h-100 shadow">
-          <img src="index_assets/sections/headers/header-1.png" class="card-img-top" alt="Header Design 1">
-          <div class="card-body text-center">
-            <h5 class="card-title">Header Design 1</h5>
-            <p class="card-text">A clean and minimalist header design.</p>
-          </div>
+<!-- ========== Portfolio Section Start ============  -->
+<section id="portfolio_section_area">
+    <div class="container">
+        <div class="row pb-5">
+            <div class="col-lg-12">
+                <div class="section_title position-relative">
+                    <div class="two d-flex justify-content-end text-end">
+                        <h1 class="wow animate__animated animate__bounceInLeft">My Portfolio
+                          <span>A Showcase of My Best Work and Projects</span>
+                        </h1>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <!-- Header Design 2 -->
-      <div class="col-md-12 col-lg-12">
-        <div class="card h-100 shadow">
-          <img src="index_assets/sections/headers/header-2.png" class="card-img-top" alt="Header Design 2">
-          <div class="card-body text-center">
-            <h5 class="card-title">Header Design 2</h5>
-            <p class="card-text">A vibrant and modern header with bold typography.</p>
-          </div>
+        <!-- ========== Portfolio One  -->
+        <div class="row mt-5 wow animate__animated animate__bounceInLeft">
+            <div class="col-lg-6 d-flex justify-content-between pt-1">
+                <img id="expandedImg" src="index_assets/images/portfolio/portfolio-1-1.png" alt="JholokDev Portfolio Template" class="w-75 object-cover">
+                <div class="d-flex flex-column gap-3 w-25">
+                  <img src="index_assets/images/portfolio/portfolio-1-1.png" alt="JholokDev Portfolio Template" class="img-fluid object-cover cursor-pointer w-100" onclick="myFunction(this);">
+                  <img src="index_assets/images/portfolio/portfolio-1-2.png" alt="JholokDev Portfolio Template" class="img-fluid object-cover cursor-pointer w-100" onclick="myFunction(this);">
+                  <img src="index_assets/images/portfolio/portfolio-1-3.png" alt="JholokDev Portfolio Template" class="img-fluid object-cover cursor-pointer w-100" onclick="myFunction(this);">
+                </div>
+              </div>
+              <div class="col-lg-6 ps-4 position-relative">
+                <div class="portfolio_text_area">
+                    <i class="fs-2 mt-4 mt-md-0 portfolio_num"><span>__</span> <sup>#1</sup></i>
+                    <h2 class="fs-2 fw-bold mt-4 mt-md-0 portfolio_title" id="imgtext">JholokDev Personal Portfolio Template.</h2>
+                    <h3 class="fs-2 fw-bold mt-4 mt-md-0 portfolio_developer_name" id="imgtext">Category : <span>Front-End Web Develop</span></h3>
+                    <p class="portfolio_description lh-lg">The JholokDev Personal Portfolio Template is a modern, sleek, and fully responsive design crafted for developers, designers, and creative professionals to showcase their work and expertise. Featuring a clean layout with bold typography, subtle animations, and dynamic visuals, this template ensures your portfolio stands out.</p>
+                    <div class="d-flex justify-content-between mt-4">
+                        <a href="#" class="btn btn-outline-theme rounded-pill px-4 py-2">Preview</a>
+                        <div class="rating d-flex text-center" style="line-height: 40px;">
+                            <p class="mb-0 client_sati">The client is satisfied :<div class="Stars ms-2" style="--rating: 2.3; line-height: 40px;" aria-label="Rating of this product is 5 out of 5."></div><p>
+                        </div>
+                    </div>
+                </div>
+              </div>
         </div>
-      </div>
-      <!-- Header Design 3 -->
-      <div class="col-md-12 col-lg-12">
-        <div class="card h-100 shadow">
-          <img src="header-design3.jpg" class="card-img-top" alt="Header Design 3">
-          <div class="card-body text-center">
-            <h5 class="card-title">Header Design 3</h5>
-            <p class="card-text">A creative header design with an image background.</p>
-          </div>
+        <!-- ========== Portfolio One  -->
+        <!-- ========== Portfolio Two  -->
+        <div class="row mt-5 wow animate__animated animate__bounceInRight">
+            <div class="col-lg-6 ps-4 position-relative">
+                <div class="portfolio_text_area">
+                    <i class="fs-2 mt-4 mt-md-0 portfolio_num"><span>__</span> <sup>#2</sup></i>
+                    <h2 class="fs-2 fw-bold mt-4 mt-md-0 portfolio_title" id="imgtext">East Breeze Holding Website</h2>
+                    <h3 class="fs-2 fw-bold mt-4 mt-md-0 portfolio_developer_name" id="imgtext">Category : <span>Convert Figma to HTML</span></h3>
+                    <p class="portfolio_description lh-lg">East Breeze Holding's website showcases a dynamic and professional platform designed to highlight the company's innovative services and global presence. Featuring a sleek design, intuitive navigation, and responsive functionality, it effectively communicates the brand's vision and commitment to excellence. Perfectly crafted to leave a lasting impression, this project reflects expertise in creating impactful corporate websites.</p>
+                    <div class="d-flex justify-content-between mt-4">
+                        <a href="#" class="btn btn-outline-theme rounded-pill px-4 py-2">Preview</a>
+                        <div class="rating d-flex text-center" style="line-height: 40px;">
+                            <p class="mb-0 client_sati">The client is satisfied :<div class="Stars ms-2" style="--rating: 2.3; line-height: 40px;" aria-label="Rating of this product is 5 out of 5."></div><p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            <div class="col-lg-6 d-flex justify-content-between pt-1">
+                <img id="expandedImg2" src="index_assets/images/portfolio/portfolio-2-1.png" alt="JholokDev Portfolio Template" class="w-75 object-cover portfolio_fun_two">
+                <div class="d-flex flex-column gap-3 w-25">
+                  <img src="index_assets/images/portfolio/portfolio-2-1.png" alt="JholokDev Portfolio Template" class="img-fluid object-cover cursor-pointer w-100" onclick="myFunction2(this);">
+                  <img src="index_assets/images/portfolio/portfolio-2-2.png" alt="JholokDev Portfolio Template" class="img-fluid object-cover cursor-pointer w-100" onclick="myFunction2(this);">
+                  <img src="index_assets/images/portfolio/portfolio-2-3.png" alt="JholokDev Portfolio Template" class="img-fluid object-cover cursor-pointer w-100" onclick="myFunction2(this);">
+                </div>
+              </div>
+              
         </div>
-      </div>
+        <!-- ========== Portfolio Two  -->
+        <!-- ========== Portfolio Three  -->
+        <div class="row mt-5 wow animate__animated animate__bounceInLeft">
+            <div class="col-lg-6 d-flex justify-content-between pt-1">
+                <img id="expandedImg3" src="index_assets/images/portfolio/portfolio-3-1.png" alt="JholokDev Portfolio Template" class="w-75 object-cover">
+                <div class="d-flex flex-column gap-3 w-25">
+                  <img src="index_assets/images/portfolio/portfolio-3-1.png" alt="JholokDev Portfolio Template" class="img-fluid object-cover cursor-pointer w-100" onclick="myFunction3(this);">
+                  <img src="index_assets/images/portfolio/portfolio-3-2.png" alt="JholokDev Portfolio Template" class="img-fluid object-cover cursor-pointer w-100" onclick="myFunction3(this);">
+                  <img src="index_assets/images/portfolio/portfolio-3-3.png" alt="JholokDev Portfolio Template" class="img-fluid object-cover cursor-pointer w-100" onclick="myFunction3(this);">
+                </div>
+              </div>
+              <div class="col-lg-6 ps-4 position-relative">
+                <div class="portfolio_text_area">
+                    <i class="fs-2 mt-4 mt-md-0 portfolio_num"><span>__</span> <sup>#3</sup></i>
+                    <h2 class="fs-2 fw-bold mt-4 mt-md-0 portfolio_title" id="imgtext">"Lugassi Design" Website For Bussiness</h2>
+                    <h3 class="fs-2 fw-bold mt-4 mt-md-0 portfolio_developer_name" id="imgtext">Category : <span>Web Design & Develop</span></h3>
+                    <p class="portfolio_description lh-lg">Lugassi Design is a modern and professional website tailored to meet the needs of businesses looking to make an impactful digital presence. With a sleek and intuitive design, it serves as the perfect platform to showcase your services, build trust with clients, and elevate your brand's visibility</p>
+                    <div class="d-flex justify-content-between mt-4">
+                        <a href="#" class="btn btn-outline-theme rounded-pill px-4 py-2">Preview</a>
+                        <div class="rating d-flex text-center" style="line-height: 40px;">
+                            <p class="mb-0 client_sati">The client is satisfied :<div class="Stars ms-2" style="--rating: 2.3; line-height: 40px;" aria-label="Rating of this product is 5 out of 5."></div><p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+        <!-- ========== Portfolio Three  -->
+        <!-- ========== Portfolio More Button   -->
+        <div class="row">
+            <div class="col-lg-12 mt-5 d-flex justify-content-end">
+                <hr class="big_line">
+                <a href="#" class="effect_button ps-3 pe-3"><em><i></i><i></i><i></i><i></i><i></i><i></i></em><span>See All Portfolio</span></a>
+            </div>
+        </div>
     </div>
-    <div class="text-center mt-5">
-      <a href="#" class="btn btn-primary btn-lg">View All Header Designs</a>
-    </div>
-  </div>
 </section>
+<!-- ========== Portfolio Section End ============  -->
+
+<!-- ========== Service Section Start ============  -->
+<section id="service_section_area" class="section-services">
+    <div class="container">
+        <div class="row pb-5">
+            <div class="col-lg-12">
+                <div class="section_title position-relative">
+                    <div class="two d-flex">
+                        <h1 class="wow animate__animated animate__bounceInRight">My Services
+                          <span>Crafted Solutions to Empower Your Vision</span>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Single Service -->
+            <div class="col-md-6 col-lg-4 wow animate__animated animate__bounceInLeft">
+                <div class="single-service">
+                    <div class="content">
+                        <span class="icon">
+                            <img class="w-75" src="index_assets/images/icons/coding.png" alt="coding">
+                        </span>
+                        <h3 class="title">Custom Web <br> Development</h3>
+                        <p class="description">Creating modern, responsive, and user-friendly websites tailored to your goals.</p>
+                        
+                    </div>
+                    <span class="circle-before"></span>
+                </div>
+            </div>
+            <!-- / End Single Service -->
+            <!-- Single Service -->
+            <div class="col-md-6 col-lg-4 wow animate__animated animate__bounceIn">
+                <div class="single-service">
+                    <div class="content">
+                        <span class="icon">
+                            <img class="w-75" src="index_assets/images/icons/mobile.png" alt="figma-to-html">
+                        </span>
+                        <h3 class="title">Figma to HTML <br> Conversion</h3>
+                        <p class="description">Pixel-perfect conversions with clean and efficient code for seamless performance.</p>
+                    </div>
+                    <span class="circle-before"></span>
+                </div>
+            </div>
+            <!-- / End Single Service -->
+            <!-- Single Service -->
+            <div class="col-md-6 col-lg-4 wow animate__animated animate__bounceInRight">
+                <div class="single-service">
+                    <div class="content">
+                        <span class="icon">
+                            <img class="w-75" src="index_assets/images/icons/php-code.png" alt="laravel-develop">
+                        </span>
+                        <h3 class="title">Laravel <br> Development</h3>
+                        <p class="description">Building secure and scalable web applications with the power of Laravel.</p>
+                    </div>
+                    <span class="circle-before"></span>
+                </div>
+            </div>
+            <!-- / End Single Service -->
+            <!-- Single Service -->
+            <div class="col-md-6 col-lg-4 wow animate__animated animate__bounceInLeft">
+                <div class="single-service">
+                    <div class="content">
+                        <span class="icon">
+                            <img class="w-75" src="index_assets/images/icons/ui-design.png" alt="ui/ux-design">
+                        </span>
+                        <h3 class="title">UI/UX <br> Design</h3>
+                        <p class="description">Designing visually appealing and intuitive interfaces that enhance user engagement.</p>
+                    </div>
+                    <span class="circle-before"></span>
+                </div>
+            </div>
+            <!-- / End Single Service -->
+            <!-- Single Service -->
+            <div class="col-md-6 col-lg-4 wow animate__animated animate__bounceIn">
+                <div class="single-service">
+                    <div class="content">
+                        <span class="icon">
+                            <img class="w-75" src="index_assets/images/icons/maintenance.png" alt="web-maintenance">
+                        </span>
+                        <h3 class="title">Website <br> Maintenance</h3>
+                        <p class="description">Keeping your website updated, secure, and running smoothly with  maintenance. </p>
+                    </div>
+                    <span class="circle-before"></span>
+                </div>
+            </div>
+            <!-- / End Single Service -->
+            <!-- Single Service -->
+            <div class="col-md-6 col-lg-4 wow animate__animated animate__bounceInRight">
+                <div class="single-service">
+                    <div class="content">
+                        <span class="icon">
+                            <img class="w-75" src="index_assets/images/icons/shopping.png" alt="e-commerce-development">
+                        </span>
+                        <h3 class="title">E-commerce <br> Development</h3>
+                        <p class="description">Building robust, feature-rich online stores to help you sell your products with ease.</p>
+                    </div>
+                    <span class="circle-before"></span>
+                </div>
+            </div>
+            <!-- / End Single Service -->
+        </div>
+    </div>
+</section>
+<!-- ========== Service Section End ============  -->
+
+<!-- ========== Blogs Section Start ============  -->
+<section id="blog_section_area">
+    <div class="container">
+        <div class="row pb-5">
+            <div class="col-lg-12">
+                <div class="section_title position-relative">
+                    <div class="two d-flex justify-content-end text-end">
+                        <h1 class="wow animate__animated animate__bounceInLeft">My Blog
+                          <span>Sharing Knowledge, Ideas, and Inspiration</span>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- =========== Blog One  -->
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 wow animate__animated animate__bounceInLeft">
+                <a href="">
+                    <div class="card-flyer">
+                        <div class="text-box">
+                            <div class="image-box">
+                                <img src="https://cdn.pixabay.com/photo/2018/03/30/15/11/deer-3275594_960_720.jpg" alt="" />
+                            </div>
+                            <div class="text-container">
+                                <h6>The Art of Pixel-Perfect Design</h6>
+                                <p class="mb-3">Discover the secrets behind creating flawless, pixel-perfect designs that combine creativity and precision to deliver an outstanding user experience ..</p>
+                                <div class="blogs_de d-flex justify-content-between">
+                                    <p>Category : <span>Technical</span></p>
+                               </div>
+                                <div class="blogs_de d-flex justify-content-between">
+                                    <p>Author : <span>Jholok</span></p>
+                                    <p>Date : <span>10-10-2024</span></p>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- =========== Blog One  -->
+
+             <!-- =========== Blog Two  -->
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 wow animate__animated animate__bounceIn">
+                <a href="">
+                    <div class="card-flyer">
+                        <div class="text-box">
+                            <div class="image-box">
+                                <img src="https://cdn.pixabay.com/photo/2018/04/09/19/55/low-poly-3305284_960_720.jpg" alt="" />
+                            </div>
+                            <div class="text-container">                                    
+                                <h6>Why Responsive Design Matters</h6>
+                                <p class="mb-3">Learn why responsive design is essential for modern websites and how it ensures seamless user engagement across all devices and screen sizes.</p>
+                                <div class="blogs_de d-flex justify-content-between">
+                                    <p>Category : <span>How to, Web Design</span></p>
+                               </div>
+                                <div class="blogs_de d-flex justify-content-between">
+                                    <p>Author : <span>Jholok</span></p>
+                                    <p>Date : <span>10-10-2024</span></p>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- =========== Blog Two  -->
+
+            <!-- =========== Blog Three  -->
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 wow animate__animated animate__bounceInRight">
+                <a href="">
+                    <div class="card-flyer">
+                        <div class="text-box">
+                            <div class="image-box">
+                                <img src="https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png" alt="" />
+                            </div>
+
+                            <div class="text-container">
+                                <h6>Figma to HTML: A Developer’s Guide</h6>
+                               <p class="mb-3">Get step-by-step insights into transforming Figma designs into clean, functional HTML code while maintaining design accuracy and responsiveness.</p>
+                               <div class="blogs_de d-flex justify-content-between">
+                                <p>Category : <span>Web Design</span></p>
+                           </div>
+                               <div class="blogs_de d-flex justify-content-between">
+                                    <p>Author : <span>Jholok</span></p>
+                                    <p>Date : <span>10-10-2024</span></p>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- =========== Blog Three  -->
+        </div>
+        <!-- ========== Portfolio More Button   -->
+        <div class="row">
+            <div class="col-lg-12 mt-5 d-flex justify-content-end">
+                <hr class="big_line">
+                <a href="#" class="effect_button ps-3 pe-3"><em><i></i><i></i><i></i><i></i><i></i><i></i></em><span>See All Blog</span></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ========== Blogs Section End ============  -->
+
+<!-- ========== Contact Section Start ============  -->
+ <section id="contact_section_area">
+    <div class="container">
+        <div class="row pb-5">
+            <div class="col-lg-12">
+                <div class="section_title position-relative">
+                    <div class="two d-flex">
+                        <h1 class="wow animate__animated animate__bounceInRight">Contact Me
+                          <span>Let’s Connect and Build Something Great Together</span>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 position-relative">
+                <span class="big-circle"></span>
+                <img src="img/shape.png" class="square" alt="" />
+                <div class="form">
+                    <div class="contact-info wow animate__animated animate__bounceInLeft">
+                        <h3 class="title">Let's get in touch</h3>
+                        <p class="text">I’m here to help turn your ideas into reality. Whether you have a question, project request, or just want to chat, feel free to reach out. I look forward to collaborating with you!</p>
+
+                        <div class="info">
+                            <div class="information">
+                                <i class="fa fa-map-marker"></i> &nbsp &nbsp
+
+                                <p>Baham, Mohangonj-2446, Netrakona</p>
+                            </div>
+                            <div class="information">
+                                <i class="fa fa-envelope"></i> &nbsp &nbsp
+                                <p>info.jholok@gmail.com</p>
+                            </div>
+                            <div class="information">
+                                <i class="fa fa-phone"></i>&nbsp&nbsp
+                                <p>+880 1766 596669</p>
+                            </div>
+                        </div>
+
+                        <div class="social-media">
+                            <p>Connect with us :</p>
+                            <div class="social-icons">
+                                <a href="#">
+                                    <i class="fa fa-facebook-f"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form wow animate__animated animate__bounceInRight">
+                        <span class="circle one"></span>
+                        <span class="circle two"></span>
+
+                        <form action="index.html" autocomplete="off">
+                            <h3 class="title">Contact us</h3>
+                            <div class="input-container">
+                                <input type="text" name="name" class="input" />
+                                <label for="">Username</label>
+                                <span>Username</span>
+                            </div>
+                            <div class="input-container">
+                                <input type="email" name="email" class="input" />
+                                <label for="">Email</label>
+                                <span>Email</span>
+                            </div>
+                            <div class="input-container">
+                                <input type="tel" name="phone" class="input" />
+                                <label for="">Phone</label>
+                                <span>Phone</span>
+                            </div>
+                            <div class="input-container textarea">
+                                <textarea name="message" class="input"></textarea>
+                                <label for="">Message</label>
+                                <span>Message</span>
+                            </div>
+                            <button type="submit" class="btn btn-outline-theme rounded-pill p-3 form_btn">Preview</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+<!-- ========== Contact Section End ============  -->
+
+<!-- ========== Footer Section Start ============  -->
+<footer class="footer">
+	<p class="footer-text text-center pt-3 pb-3">
+        © 2020 - <span class="footer-span">footer-span</span> <span class="site_name">JholokDev</span>. All rights reserved. Developed by <a href="https://enexcode.com" target="_blank">Enexcode</a> .
+	</p>
+</footer>
+<!-- ========== Footer Section End ============  -->
 
 
-    <!-- ========== All Js Link Here ===== -->
-     <script src="assets/js/bootstrap.min.js"></script>
-     <script src="assets/js/jquery-1.12.4.min.js"></script>
-     <script src="index_assets/js/main.js"></script>
+<!-- ========= All Effects HTML ==========  -->
+ <!-- ====== for custom cursor   -->
+ <div class="cursor"></div>
+ <!-- ====== for page loading   -->
+<div class="loading">
+    <div class="overlayDoor"></div>
+    <div class="overlayContent">
+        <div class="loader">
+            <div class="inner"></div>
+        </div>
+    </div>
+</div>
+<!-- ======= Back to top Button  -->
+<button id="back-to-top" class="back-to-top-btn">
+    <img class="w-100" src="index_assets/images/icons/up-arrows.png" alt="icons">
+</button>
+
+    <!-- Linking the JavaScript file for interactivity -->
+    <script src="index_assets/js/wow.min.js"></script>
+    <script src="index_assets/js/jquery-1.12.4.min.js"></script>
+    <script src="index_assets/js/core.js"></script>
+    <script src="index_assets/js/bootstrap.min.js"></script>
+    <script src="index_assets/js/script.js"></script>
+    <script>
+        // Wow Plugin config 
+        new WOW().init();
+
+        // Footer Current Year 
+        const footerSpan = document.querySelector(".footer-span");
+        footerSpan.innerHTML = `${(new Date().getFullYear())}`;
+
+         // Save scroll position before unload
+         window.onbeforeunload = function () {
+                window.scrollTo(0, 0);
+            };
+    </script>
+    <!-- 
+    ---------------------------------------------------------
+    Template Information:
+    Template Name: JholokDev - Portfolio Template
+    Developed by: Noushed Ahmed Jholok (Enexcode.com)
+    Purpose: A modern and clean portfolio HTML template to showcase your skills, projects, and personal information.
+    You can customize and use this template for personal or commercial projects.
+    ---------------------------------------------------------
+    -->
 </body>
 </html>
