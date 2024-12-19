@@ -1,0 +1,75 @@
+.bg-dark{
+    background-color: #0b141d !important;
+}
+.nav-link{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all .3s linear;
+}
+.nav-link.active{
+    color: #0084B2;
+}
+.nav-link:hover{
+    color: #0084B2;
+}
+
+.networking {
+    padding: 116px 0;
+  }
+  
+  .heading {
+    font-weight: bold;
+    font-size: 44px;
+    color: #ffffff;
+  }
+  
+  .social a:hover .twitter {
+    color: #1da1f2;
+  }
+  
+  .social a:hover .dribbble {
+    color: #be205f;
+  }
+  
+  .social a:hover .facebook {
+    color: #1877f2;
+  }
+  
+  .social a:hover .instagram {
+    /*   background: linear-gradient(to left, #393dd8, #ca2e86, #f68601);
+    -webkit-background-clip: text;
+    color: transparent; */
+    color: #ca2e86;
+  }
+
+  .nav-item a {
+    margin: 0 6px;
+  }
+  .btn-primary:hover,
+  .btn-primary:focus {
+    color: #fff;
+    background-color: #2d454f;
+    border-color: #2d454f;
+  }
+  .img {
+    width: 719px;
+  }
+  .nav-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000000e6;
+    transition: width 0.3s;
+  }
+  .nav-link:hover::after {
+    width: 100%;
+  }
+  .nav-link.social-icon::after {
+    content: none;
+  }
+.nav-link:hover , .nav-item:hover{
+    border: none !important;
+}
+  
